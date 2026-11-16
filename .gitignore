@@ -1,0 +1,33 @@
+# Python environments / caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Standalone figure scripts, final figures and document artifacts
+make_fig*.py
+make_paper_figures*.py
+make_supplementary_figures*.py
+relabel_fig*.py
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.pdf
+*.docx
+*.pptx
+*.eps
+*.svg
+figs_paper*/
+
+# Local temp output
+*.tmp
+*.bak
+*.log
